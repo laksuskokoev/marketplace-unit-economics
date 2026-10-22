@@ -42,8 +42,6 @@ A marketplace is spending money on growth. Which acquisition channels cover mark
 - `reports/channel_economics.csv`, `reports/summary.json`: calculated metrics.
 - `reports/findings.md`: business recommendations, assumptions and limitations.
 - `tests/test_analysis.py`: automated checks.
-- `docs/project_story_ru.md`: motivation and interview discussion topics (Russian).
-- `docs/github_upload_ru.md`: step-by-step GitHub Desktop instructions (Russian).
 
 ## Reproduce locally
 Python 3.10+:
@@ -61,5 +59,3 @@ Open `notebooks/walkthrough.ipynb` and run cells from the repository root. All d
 ## Business caveats
 Channel populations are **not randomly assigned**; apparent performance differences may come from user mix rather than channel causality. No incremental lift, true lifetime LTV, fixed overhead, taxation or financing costs were modeled. Marketing assumptions are demonstrative, not forecasts.
 
-## Interview-ready project summary
-Built a reproducible synthetic marketplace unit-economics case: modeled revenue, refunds and variable costs, analyzed acquisition-channel CAC and 90-day contribution in Python and SQL, reconciled outputs and produced recommendations with explicit limitations.
